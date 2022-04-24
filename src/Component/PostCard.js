@@ -15,7 +15,7 @@ const PostCard = ({ data }) => {
     else if(date <= 0){
          i = i+6
     }
-    console.log(date_time[i])
+
    
     function Checkday() {
         if (date = date_time[i]) {
