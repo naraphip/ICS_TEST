@@ -28,7 +28,7 @@ export default function SingleCard(props) {
     }, [])
 
     function goBlack() {
-        props.history.push('/')
+        props.history.push('/ICS')
     }
 
     return (
