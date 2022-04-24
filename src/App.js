@@ -7,7 +7,7 @@ import SingleCard from './Page/SinglePage';
 
 function App() {
   return (
-    <HashRouter basename={`/ICS`}>
+    <HashRouter>
       <Navbar />
       <Switch>
         <Route exact path="/" component={Home} />
