@@ -9,8 +9,8 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <Route exact path="/ICS" component={Home} />
-      <Route exact path="/ICS/post/:id" component={SingleCard} />
+      <Route exact path="/" component={Home} />
+      <Route exact path="/post/:id" component={SingleCard} />
     </div>
   );
 }
