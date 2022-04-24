@@ -11,7 +11,7 @@ function App() {
       <Navbar />
       <Switch>
         <Route exact path="/" component={Home} />
-        <Route exact path="/post/:id" component={SingleCard} />
+        <Route exact path="#/post/:id" component={SingleCard} />
       </Switch>
     </HashRouter>
   );
