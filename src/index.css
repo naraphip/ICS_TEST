@@ -5,6 +5,7 @@ body {
 
 #root ,body{
   background-color: #f8f8f8;
+  min-height: 100vh;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

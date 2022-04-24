@@ -1,5 +1,5 @@
 import './App.css';
-import { HashRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter, HashRouter, Route, Switch } from "react-router-dom";
 import Home from './Page/Home';
 import Navbar from './Navbar/Navbar';
 import SingleCard from './Page/SinglePage';
@@ -7,11 +7,11 @@ import SingleCard from './Page/SinglePage';
 
 function App() {
   return (
-    <HashRouter>
-      <Navbar />
+    <HashRouter basename={'/ICS'}>
+      <Navbar/>
       <Switch>
         <Route exact path="/" component={Home} />
-        <Route exact path="/post/:id" component={SingleCard} />
+        <Route exact path="ICS#/post/:id" component={SingleCard} />
       </Switch>
     </HashRouter>
   );
