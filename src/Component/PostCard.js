@@ -41,7 +41,7 @@ const PostCard = ({ data }) => {
 
                 <div className='section'>
                     <div className='section1'>
-                        <a className="name-postcard" href={`?#/post/${data.id}`}>{data.name}</a>
+                        <a className="name-postcard" href={`/post/${data.id}`}>{data.name}</a>
                     </div>
                     <div className='section2'>
                         <div>
