@@ -18,7 +18,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## การทำงานและการแสดงผลของ App
 สามารถแสดงผลได้ทั้งในหน้าจอ Desktop หรือ Mobile(Responsive UI)\
-สามารถค้นหาร้านค้าได้ แต่ยังไม่สามารถแสดงผลจากรายการที่เลือก categories
+สามารถค้นหาร้านค้าได้ แต่ยังไม่สามารถแสดงผลจากรายการที่เลือก categories\
 ตัวอย่าง react app: https://naraphip.github.io/ICS/
 
 ## Available Scripts
