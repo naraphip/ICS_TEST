@@ -2,6 +2,25 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## ติดตั้ง package เสริมตามแต่ละเวอร์ชั่นใน package.json
+เช่น yran add react-router-dom@5.1 (react-router-dom@5.1 มีผลต่อการทำงานของ App)
+
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-regular-svg-icons": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/react-fontawesome": "^0.1.18",
+    "@mui/material": "^5.6.2",
+    "bootstrap": "^5.1.3",
+    "react-bootstrap": "^2.3.0",
+    "react-router-dom": "5.1",
+
+## การทำงานและการแสดงผลของ App
+สามารถแสดงผลได้ทั้งในหน้าจอ Desktop หรือ Mobile(Responsive UI)\
+สามารถค้นหาร้านค้าได้ แต่ยังไม่สามารถแสดงผลจากรายการที่เลือก categories
+ตัวอย่าง react app: https://naraphip.github.io/ICS/
+
 ## Available Scripts
 
 In the project directory, you can run:
