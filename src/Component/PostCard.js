@@ -10,16 +10,17 @@ const PostCard = ({ data }) => {
 
     let i=0;
     if(date >= 1){
-         i = i-1;
+         i = date-1;
     }
     else if(date <= 0){
-         i = i+6
+         i = date+6
     }
-
    
     function Checkday() {
         if (date = date_time[i]) {
+            console.log(date)
             return (
+                
                 <div className="time-postcard">
                     <p>
                         <FontAwesomeIcon className='icon-time-postcard' icon={faCalendarDays} />
@@ -41,7 +42,7 @@ const PostCard = ({ data }) => {
 
                 <div className='section'>
                     <div className='section1'>
-                        <a className="name-postcard" href={`#/post/${data.id}`}>{data.name}</a>
+                        <a className="name-postcard" href={`/post/${data.id}`}>{data.name}</a>
                     </div>
                     <div className='section2'>
                         <div>

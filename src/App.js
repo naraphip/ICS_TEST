@@ -7,13 +7,13 @@ import SingleCard from './Page/SinglePage';
 
 function App() {
   return (
-    <HashRouter basename={'/ICS'}>
+    <BrowserRouter basename={'/ICS'}>
       <Navbar/>
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/post/:id" component={SingleCard} />
       </Switch>
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 
