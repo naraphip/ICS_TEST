@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Col, Container, Form, Row } from 'react-bootstrap'
+import { Col, Container, Row } from 'react-bootstrap'
 import PostCard from '../Component/PostCard'
 import { data } from '../data'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -8,7 +8,7 @@ import Pagination from '@mui/material/Pagination';
 import Stack from '@mui/material/Stack';
 
 
-
+console.log(data)
 
 export default function Home() {
 

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { data } from '../data'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleLeft, faCircle } from '@fortawesome/free-solid-svg-icons';
-import { Col, Container, Row } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 
 export default function SingleCard(props) {
     let postId = props.match.params.id;
@@ -28,7 +28,7 @@ export default function SingleCard(props) {
     }, [])
 
     function goBlack() {
-       window.location = '/ICS'
+       window.location = '/ICS_TEST';
     }
 
     return (

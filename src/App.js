@@ -7,7 +7,7 @@ import SingleCard from './Page/SinglePage';
 
 function App() {
   return (
-    <BrowserRouter basename={'/ICS'}>
+    <BrowserRouter basename={'/ICS_TEST'}>
       <Navbar/>
       <Switch>
         <Route exact path="/" component={Home} />
